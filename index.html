@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Central de advogados</title>
+    <link rel="stylesheet" type="text/css" href="src/1-Css/style.css">
+</head>
+<body>
+    <header class="banner">
+        <nav>
+            <a href="#sobre">Sobre o escritorio</a>
+            <a href="#contato">Contato com o escritorio</a>
+        </nav><br>
+    </header>
+    <main>
+                <h1>Escritorio, Central de Advogados</h1>
+        <p>Você está prescisando de <em class="anima-cor">acessoria juridica?</em>
+            Entre em <a href="#contato">contato</a> conosco, resolvemos sua causa:
+        </p>
+    <div class="card">
+        <table>
+            <tr>
+                <th>Trabalhistas</th>
+            </tr>
+            <tr>
+                <th>
+                    <img src="src/2-Imagens/imagemTrabalhista.jpg" alt="imagem trabalhista">
+                </th>
+            </tr>
+            <tr>
+                <th>Resolvemos sua causa <br>com <em class="anima-cor1">DESCONTO</em> de 5%.</th>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th>Cível</th>
+            </tr>
+            <tr>
+                <th>
+                    <img src="src/2-Imagens/imagemCivel.jpg" alt="imagel civel">
+                </th>
+            </tr>
+            <tr>
+                <th>Resolvemos sua causa <br> com <em class="anima-cor1">DESCONTOS</em> de<br> 10 a 20%.</th>
+            </tr>
+        </table>
+        <table>
+            <tr>
+                <th>Criminal</th>
+            </tr>
+            <tr>
+                <th>
+                    <img src="src/2-Imagens/imagemCriminal.jpg" alt="imagem criminal">
+                </th>
+            </tr>
+            <tr>
+                <th>Resolvemos sua causa o mais<br> <em class="anima-cor1">RÁPIDO</em> possível.</th>
+            </tr>
+        </table>
+    </div>
+    <br><br><br><br>
+    <p>Te damos todo o suporte necessário para resolução de problemas jurídicos e temos
+         parcerias com profissionais que dão suporte psicológico e laboratorial, se necessário.</p>
+    <div class="ilustracao">
+        <img src="/src/2-Imagens/imagemAdvocacia.jpg" alt="imagem de atendimento de um advogado">
+        <img src="/src/2-Imagens/imagemPsicologico.jpg" alt="imagem de atendimento psicológico">
+        <img src="/src/2-Imagens/imagemLaboratorial.jpg" alt="imagem de um exame laboratorial">
+    </div>
+    <section id="sobre">
+         <h2>Sobre nosso escritorio</h2>
+        <p>
+            No nosso escritório temos especialistas em causas trabalhistas, cíveis e criminais, 
+            seja corporativo ou pessoal, público ou privado. Temos os melhores profissionais engajados em cada área específica
+             para uma resolução rápida e efetiva.
+        </p><br><br>
+    </section>
+    <section id="sobre-img">
+        <img src="src/2-Imagens/balanca.jpg">
+        <img src="src/2-Imagens/imagemTrabalho.jpg">
+    </section>
+    <br><br>
+        <p id="sobre1">
+            Profissionais especilizados em suas respectivas áreas, não perca essa oferta! È por tempo limitado.
+        </p>
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>
+            Entre em contato conosco para tirar dúvidas, dar sugestões
+             e fazer elogios, sua opinião é muito importante!
+        </p>
+    </section>
+    <form action="index.html" method="post" id="cadastro">
+
+        <label for="usuario>">Usuario</label><br>
+        <input type="text" id="usuario" name="usuario" placeholder="Seu nome" required><br>
+
+        <label for="email">Email</label><br>
+        <input type="email" id="email" name="email" placeholder="email" required><br>
+
+        <label for="telefone">Telefone</label><br>
+        <input type="tel" id="telefone" name="telefone" placeholder="Seu contato"><br>
+        
+        <label for="message">Deixe seu comentario</label><br>
+        <textarea name="message" rows="30" cols="90" placeholder="Fale conosco"></textarea><br>
+
+        <button type="submit">Enviar</button>
+        <br>
+
+        <p id="saidaUm"></p>
+        
+        <script src="src/3-Js/cadastro.js"></script>
+    </form>
+    </main>
+</body>
+</html>
