@@ -1,0 +1,143 @@
+body {
+    background-color: rgb(247, 221, 155);
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+html {
+    scroll-behavior: smooth;
+
+}
+
+h1 {
+    text-align: center;
+    color: black;
+    font-size: 90px;
+    margin-top: 70px;
+    margin-bottom: 15px;
+
+}
+.banner {
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    color: rgba(156, 108, 3, 0.514);
+    width: 98%;
+    z-index: 1000;
+    
+}
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 10px 10px;
+    background-color: rgba(122, 70, 3);
+    margin-left: 15px;
+    margin-right: 15px;
+    border-radius: 8px;
+
+}
+nav a {
+    text-decoration: none;
+    background-color: rgb(247, 221, 155);
+    opacity: 0.8;
+    margin: 10px;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 6px;
+    transition: 0.3s;
+    cursor: url('/src/2-Imagens/martelo\ do\ juiz.mp4'), pointer;
+}
+nav a:hover {
+    background-color: blue;
+    color: whitesmoke;
+}
+p {
+    text-align: center;
+    padding: 30px;
+    margin: 30px;
+    font-size: 34px;
+
+}
+h2 {
+    text-align: center;
+    font-size: 75px;
+
+}
+.anima-cor {
+    font-size: 2em;
+    animation: muda-cor 1s infinite;
+
+}
+@keyframes muda-cor {
+    0% {color: rgb(250, 3, 3);}
+    50% {color: blue;}
+    100% {color: rgb(3, 250, 15);}
+
+}
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 25px;
+}
+.card img{
+    width: 90%;
+    height: 400px;
+    justify-content: center;
+    border-radius: 10px;
+}
+.anima-cor1 {
+    font-size: 1em;
+    animation: muda-cor1 0.5s infinite;
+}
+@keyframes muda-cor1 {
+     0% {color: rgb(248, 4, 4);}
+    50% {color: rgb(6, 243, 6);}
+    100% {color: rgb(3, 7, 250);}
+}
+.ilustracao {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+}
+.ilustracao img {
+    margin: 20px;
+    float: left;
+    width: 30%;
+    height: 450px;
+    border-radius: 10px;
+
+}
+#sobre-img {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15px;
+}
+#sobre-img img{
+    width: 45%;
+    height: 500px;
+}
+form {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 35px;
+
+}
+form button{
+    width: 90px;
+    height: 45px;
+    font-size: 25px;
+}
+input {
+    width: 300px;
+    height: 35px;
+}
+#contato p {
+    text-align: center;
+}
